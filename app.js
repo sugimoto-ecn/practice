@@ -15,6 +15,7 @@ app.use(applicationlogger())
 
 console.log("oooi")
 console.log("hello")
+console.log("hello_2")
 
 app.listen(PORT, () => {
   logger.console.info("start");
