@@ -12,8 +12,9 @@ app.disable("x-powerd-by");
 app.use(accesslogger());
 app.use("/" , require("./routes/index"))
 app.use(applicationlogger())
+
+console.log("oooi")
+
 app.listen(PORT, () => {
   logger.console.info("start");
 });
-
-kkuku
